@@ -39,7 +39,7 @@ To generate actionable security telemetry, the perimeter was breached using a di
 - Engineered a targeted dictionary file (`passwords.txt`).
 - Executed an intensive credential stuffing attack using **Hydra** until the gateway was compromised.
 
-> [Insert Screenshot 1: Your Kali terminal showing the successful Hydra attack]
+>
 
 ### Phase 2: Local Intrusion Detection 
 Before scaling to the cloud, local detection logic was engineered to monitor the vault without relying on heavy third-party software.
