@@ -21,8 +21,9 @@ This lab simulates a real-world scenario where a local Linux payment node is tar
 ---
 
 ## 🏗️ Architecture & Network Flow
+[<img width="1426" height="892" alt="Screenshot 2026-04-07 at 5 56 48 PM" src="https://github.com/user-attachments/assets/690152a8-7830-4e04-b8b4-ab5231d15ab0" />]
 
-[Insert your Network Topology Diagram here if you create one]
+
 
 1.  **The Target:** An on-premises Ubuntu server hosting a simulated agent-to-agent `Secure_Vault` ledger.
 2.  **The Attack:** A Kali Linux machine on the same subnet attempting to brute-force the server's SSH port.
@@ -46,7 +47,7 @@ Before scaling to the cloud, local detection logic was engineered to monitor the
 - Authored a custom Bash shell script utilizing `grep` to parse live `journalctl` SSH logs.
 - Engineered real-time terminal alerts to trigger the moment a "Failed password" string was detected on the local node.
 
-> [Insert Screenshot 2: Your Ubuntu terminal showing the custom Bash alarm triggering]
+>
 
 ### Phase 3: Enterprise Cloud Escalation (Blue Team)
 To meet the rigorous compliance standards of international financial security operations, the local detection was escalated to Microsoft Azure.
